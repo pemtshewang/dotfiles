@@ -1,0 +1,54 @@
+[window]
+decorations = "none"
+opacity = 0.8
+startup_mode = "Fullscreen"
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[font]
+size = 11.0
+
+[font.bold]
+family = "Fira Code NerdFont"
+style = "Bold"
+
+[font.italic]
+family = "Fira Code NerdFont"
+style = "Italic"
+
+[font.normal]
+family = "Fira Code NerdFont"
+style = "Regular"
+
+[font.offset]
+# y: Adjusts vertical spacing (line height). 
+# Start with 2 to add a little space between lines. Increase if lines are still too close.
+y = 2
+# x: Adjusts horizontal spacing (letter spacing). 
+# Keep at 0 unless letters are overlapping, then use -1 or -2 to pull them closer.
+x = 0
+
+[font.glyph_offset]
+# y: Adjusts the vertical position of the character within its cell.
+# Use this if the text seems to be cut off at the top/bottom, or sits too high/low.
+# Start with 0. Try 1 or -1 if alignment is off.
+y = 0
+x = 0
+
+[terminal.shell]
+args = ["--login"]
+program = "/bin/bash"
+
+
+[window.position]
+x = -1 
+y = -1
+
+[window.padding]
+x = 15
+y = 15
+
+
+[terminal]
